@@ -1,7 +1,6 @@
 # EctoTimestamps
 
-An elixir module that convert default utc timestamp to local timestamp in ecto.
-
+An elixir module that convert default utc timestamps to local timestamps in ecto.
 
 ## Installation
 
