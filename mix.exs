@@ -31,12 +31,15 @@ defmodule EctoTimestamps.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:ecto, "~> 2.0"}
+    ]
   end
 
   defp description do
     """
     An elixir module that convert default utc timestamps to local timestamps in ecto.
+    Note: Ecto 2.0 and above is required.
     """
   end
 
