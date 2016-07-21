@@ -8,6 +8,7 @@ defmodule EctoTimestamps.Mixfile do
       elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
+      description: description,
       package: package,
       deps: deps
     ]
@@ -33,7 +34,13 @@ defmodule EctoTimestamps.Mixfile do
     []
   end
 
-  def package do
+  defp description do
+    """
+    An elixir module that convert default utc timestamps to local timestamps in ecto.
+    """
+  end
+
+  defp package do
     [
       files: ["lib", "mix.exs", "README.md"],
       maintainers: ["developerworks"],
