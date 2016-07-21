@@ -50,7 +50,7 @@ defmodule EctoTimestamps.Mixfile do
       licenses: ["Apache 2.0"],
       links: %{
         "GitHub" => "https://github.com/developerworks/ecto_timestamps",
-        "Docs"   => "https://github.com/developerworks/ecto_timestamps/README.md"
+        "Docs"   => "https://github.com/developerworks/ecto_timestamps/blob/master/README.md"
       }
    ]
   end
