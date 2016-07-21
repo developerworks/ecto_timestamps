@@ -24,7 +24,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
   Add a module attribute to your Ecto schema, for example:
 
-  ```
+  ```elixir
   defmodule <ProjectName>.Model.Role do
     @timestamps_opts [
       autogenerate: {EctoTimestamps.Local, :autogenerate, [:sec]}
@@ -38,7 +38,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
   If you dont want to add `@timestamps_opts` module attribute in your every schema, you could create a module and use it.
 
-  ```
+  ```elixir
   defmodule <ProjectName>.Model do
     defmacro __using__(_opts) do
       quote do
@@ -57,7 +57,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
   And then `use` it in your Role schema
 
-  ```
+  ```elixir
   defmodule <ProjectName>.Model.Role do
     use <ProjectName>.Model
 
