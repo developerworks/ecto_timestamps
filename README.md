@@ -11,7 +11,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
   1. Add ecto_timestamps to your list of dependencies in `mix.exs`:
 
         def deps do
-          [{:ecto_timestamps, "~> 0.0.1"}]
+          [{:ecto_timestamps, "~> 1.0.0"}]
         end
 
   2. Ensure ecto_timestamps is started before your application:
